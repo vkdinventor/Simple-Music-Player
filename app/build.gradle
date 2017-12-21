@@ -3,13 +3,13 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.1"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         applicationId "com.simplemobiletools.musicplayer"
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 26
         versionCode 34
         versionName "3.0.1"
         setProperty("archivesBaseName", "music-player")
